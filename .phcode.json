@@ -1,0 +1,5 @@
+{
+  "projectType": "vite-react",
+  "entryPoint": "index.html",
+  "srcDir": "src"
+}
