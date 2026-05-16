@@ -565,3 +565,27 @@ body {
 .content::-webkit-scrollbar { width: 3px; }
 .content::-webkit-scrollbar-track { background: transparent; }
 .content::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 100px; }
+
+/* ─── Dark mode ──────────────────────────────────────────────────── */
+body.dark-mode {
+  --bg:        #0d1117;
+  --surface:   #161b22;
+  --surface2:  #21262d;
+  --border:    #30363d;
+  --border2:   #484f58;
+  --text:      #e6edf3;
+  --text2:     #8b949e;
+  --text3:     #6e7681;
+}
+body.dark-mode .card    { box-shadow: none; }
+body.dark-mode .stat-box{ box-shadow: none; }
+body.dark-mode .hero    { background: linear-gradient(135deg,#006633,#009950); }
+body.dark-mode .route-card { background: var(--surface); }
+body.dark-mode .token-card.weekly  { background: #0a2e1c; border-color: #00C566; }
+body.dark-mode .token-card.monthly { background: #1a0a2e; border-color: #8B5CF6; }
+body.dark-mode .btn-outline { border-color: var(--border); color: var(--text2); }
+body.dark-mode .form-group input,
+body.dark-mode .form-group select,
+body.dark-mode .form-group textarea { background: var(--surface2); border-color: var(--border); color: var(--text); }
+body.dark-mode .dev-header { background: #010409; }
+body.dark-mode .active-token { background: linear-gradient(135deg,#006633,#009950); }
